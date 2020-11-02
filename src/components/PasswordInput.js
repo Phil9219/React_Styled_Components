@@ -13,7 +13,7 @@ import styled from 'styled-components/macro';
 const Input = styled.input`
   background: ${(props) =>
     `hsl(${
-      props.value.length * 5.5 > 120 ? 120 : props.value.length * 5.5
+      props.value.length * 5 > 120 ? 120 : props.value.length * 5
     }, 100%, 50%)`};
   transition: background 0.4s ease-in-out;
 `;
